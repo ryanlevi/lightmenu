@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails 5
+Ruby 2.3.1
 
-Things you may want to cover:
+run terminal commands to initialize:
+  bundle install
+  rake db:migrate
 
-* Ruby version
+and then to start server:
+  rails s
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+navigate in browser:
+  localhost:3000
