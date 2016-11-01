@@ -1,3 +1,5 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
-<%= @out %>
+<%= form_tag("/app", method: "get") do %>
+  <%= label_tag(:calories, "How Many Calories do you have?") %>
+  <%= text_field_tag(:calories) %>
+  <%= submit_tag("Submit") %>
+<% end %>
